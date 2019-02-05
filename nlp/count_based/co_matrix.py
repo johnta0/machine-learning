@@ -38,5 +38,5 @@ if __name__ == '__main__':
     print('you and i:', cos_similarity(vec_you, vec_I))
 
     vec_hello = co_matrix[word_to_id['hello']]
-    print('you and hello:', cos_similarity(vec_you, vec_hello))
+    print('you and hello:', cos_similarity(vec_you, vec_hello)) # this is equal to that of you and i beacaus corpus is too small.
     print('i and hello:', cos_similarity(vec_I, vec_hello))
