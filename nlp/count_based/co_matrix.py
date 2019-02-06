@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
 import numpy as np
+import sys
+
+sys.path.append('../..')
 from common.util import preprocess, cos_similarity
 
 def create_co_occurence_matrix(corpus, vocab_size, window_size=1):
